@@ -1,0 +1,8 @@
+name: Main Kittyfram Workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
