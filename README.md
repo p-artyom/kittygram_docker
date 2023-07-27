@@ -2,10 +2,10 @@
 
 ## Описание
 
-Kittygram — социальная сеть для обмена фотографиями любимых питомцев. Это
-полностью рабочий проект, который состоит из бэкенд-приложения на Django и
-фронтенд-приложения на React. Проект готов к запуску в контейнерах и CI/CD
-с помощью GitHub Actions.
+_Kittygram_ — социальная сеть для обмена фотографиями любимых питомцев. Это
+полностью рабочий проект, который состоит из бэкенд-приложения на _Django_ и
+фронтенд-приложения на _React_. Проект готов к запуску в контейнерах и _CI/CD_
+с помощью _GitHub Actions_.
 
 ## Технологии
 
@@ -47,9 +47,9 @@ sudo apt install nginx -y
 sudo systemctl start nginx
 ```
 
-- На сервере в редакторе _nano_ откройте конфиг _Nginx_: `sudo nano`
-`/etc/nginx/sites-enabled/default`. Измените настройки `location` в секции
-`server`:
+- На сервере в редакторе _nano_ откройте конфиг _Nginx_:
+`sudo nano/etc/nginx/sites-enabled/default`. Измените настройки `location`
+в секции `server`:
 
 ```text
 location / {
@@ -70,8 +70,8 @@ sudo nginx -t
 sudo systemctl reload nginx
 ```
 
-- Форкните и клонируйте к себе на компьютер [репозиторий]
-(https://github.com/p-artyom/kittygram_final);
+- Форкните и клонируйте к себе на компьютер
+[репозиторий](https://github.com/p-artyom/kittygram_final);
 
 - В корне проекта перейдите в директорию `.github/workflows` и в ней откройте
 файл `main.yml`;
