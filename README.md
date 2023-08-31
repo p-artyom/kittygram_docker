@@ -48,7 +48,7 @@ sudo systemctl start nginx
 ```
 
 - На сервере в редакторе _nano_ откройте конфиг _Nginx_:
-`sudo nano/etc/nginx/sites-enabled/default`. Измените настройки `location`
+`sudo nano /etc/nginx/sites-enabled/default`. Измените настройки `location`
 в секции `server`:
 
 ```text
@@ -71,7 +71,7 @@ sudo systemctl reload nginx
 ```
 
 - Форкните и клонируйте к себе на компьютер
-[репозиторий](https://github.com/p-artyom/kittygram_final);
+[репозиторий](https://github.com/p-artyom/kittygram_docker);
 
 - В корне проекта создайте директорию `.github/workflows`, а в ней - файл
 `main.yml`;
