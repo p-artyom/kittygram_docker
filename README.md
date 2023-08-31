@@ -73,8 +73,8 @@ sudo systemctl reload nginx
 - Форкните и клонируйте к себе на компьютер
 [репозиторий](https://github.com/p-artyom/kittygram_final);
 
-- В корне проекта перейдите в директорию `.github/workflows` и в ней создайте
-откройте файл `main.yml`;
+- В корне проекта создайте директорию `.github/workflows`, а в ней - файл
+`main.yml`;
 
 - Скопируйте содержимое файла `kittyfram_workflows` в `main.yml`;
 
