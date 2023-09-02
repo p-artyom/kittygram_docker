@@ -78,8 +78,11 @@ sudo systemctl reload nginx
 
 - Скопируйте содержимое файла `kittyfram_workflows` в `main.yml`;
 
-- В строках `73, 118, 141` замените `<your_login>` на свой логин в
-_Docker Hub_.
+- В файле `main.yml` в строках `73, 118, 141` замените `<your_login>` на свой
+логин в _DockerHub_;
+
+- В файле `docker-compose.production.yml` в строках `15, 23, 29` замените
+`<your_login>` на свой логин в _DockerHub_.
 
 Для автоматического развёртывания контейнеров на удалённом сервере при помощи
 _GitHub Actions_ необходимо создать _secrets_ в собственном репозитории.
